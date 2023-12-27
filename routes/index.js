@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/health', function(req, res, next) {
-  res.json({success:true,message:"server is up"})
+  res.json({success:true,message:"server is up!"})
 });
 
 module.exports = router;
