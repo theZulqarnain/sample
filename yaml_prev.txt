@@ -25,4 +25,4 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm ci
-    - run: npm run start --if-present
+    - run: pm2 restart sample
